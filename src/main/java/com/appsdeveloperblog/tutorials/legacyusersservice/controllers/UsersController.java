@@ -28,7 +28,7 @@ public class UsersController {
     }
 
     @PostMapping("/{userName}/verify-password")
-    VerifyPasswordResponse verifyUserPassword(@PathVariable("userName") String userName,
+    public VerifyPasswordResponse verifyUserPassword(@PathVariable("userName") String userName,
             @RequestBody String password) {
 
         VerifyPasswordResponse returnValue = new VerifyPasswordResponse(false);
