@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.tutorials.response;
+package com.appsdeveloperblog.tutorials.legacyusersservice.response;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

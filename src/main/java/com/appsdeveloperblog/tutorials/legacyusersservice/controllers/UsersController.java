@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.appsdeveloperblog.tutorials.legacyusersservice.service.UsersService;
-import com.appsdeveloperblog.tutorials.response.UserRest;
-import com.appsdeveloperblog.tutorials.response.VerifyPasswordResponse;
+import com.appsdeveloperblog.tutorials.legacyusersservice.response.UserRest;
+import com.appsdeveloperblog.tutorials.legacyusersservice.response.VerifyPasswordResponse;
 
 @RestController
 @RequestMapping("/users")

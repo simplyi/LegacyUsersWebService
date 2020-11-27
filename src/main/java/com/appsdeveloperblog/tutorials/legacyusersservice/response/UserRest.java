@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.tutorials.response;
+package com.appsdeveloperblog.tutorials.legacyusersservice.response;
 
 public class UserRest {
     private String firstName;

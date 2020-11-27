@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.appsdeveloperblog.tutorials.legacyusersservice.data.UserEntity;
 import com.appsdeveloperblog.tutorials.legacyusersservice.data.UsersRepository;
-import com.appsdeveloperblog.tutorials.response.UserRest;
+import com.appsdeveloperblog.tutorials.legacyusersservice.response.UserRest;
 
 @Service
 public class UsersServiceImpl implements UsersService {
