@@ -20,10 +20,10 @@ public class UsersServiceImpl implements UsersService {
     }
     
     @Override
-    public UserRest getUserDetails(String userEmail) {
+    public UserRest getUserDetails(String userName) {
         UserRest returnValue = new UserRest();
 
-        UserEntity userEntity = usersRepository.findByEmail(userEmail);
+        UserEntity userEntity = usersRepository.findByEmail(userName);
         if (userEntity == null) {
             return returnValue;
         }
@@ -34,10 +34,10 @@ public class UsersServiceImpl implements UsersService {
     }
 
     @Override
-    public UserRest getUserDetails(String userEmail, String password) {
+    public UserRest getUserDetails(String userName, String password) {
         UserRest returnValue = null;
 
-        UserEntity userEntity = usersRepository.findByEmail(userEmail);
+        UserEntity userEntity = usersRepository.findByEmail(userName);
 
         if (userEntity == null) {
             return returnValue;

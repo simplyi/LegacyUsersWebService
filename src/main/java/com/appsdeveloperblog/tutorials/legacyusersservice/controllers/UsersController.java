@@ -1,6 +1,5 @@
 package com.appsdeveloperblog.tutorials.legacyusersservice.controllers;
 
-import javax.websocket.server.PathParam;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
